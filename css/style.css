@@ -501,3 +501,40 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    flex-basis: 350px; /* width: 350px; */
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  /* Default styles for larger screens */
+.desktop-image {
+    display: none;
+}
+
+.mobile-image {
+    display: block;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (min-width: 767px) {
+    .desktop-image {
+        display: block;
+    }
+
+    .mobile-image {
+        display: none !important;
+    }
+}
