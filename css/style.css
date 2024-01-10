@@ -538,3 +538,42 @@ h6,
         display: none !important;
     }
 }
+
+.cont {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Right Align Text */
+.right-align {
+    text-align: right;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* Heading Styles */
+
+
+/* List Styles */
+ul {
+    padding-left: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+}
+
+.center-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
